@@ -7,6 +7,6 @@ version: 2
 enable-beta-ecosystems: true
 updates:
   - package-ecosystem: "docker-compose" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/multiple" # Location of package manifests
     schedule:
       interval: "weekly"
