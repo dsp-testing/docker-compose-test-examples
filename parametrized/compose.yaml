@@ -2,3 +2,5 @@ services:
   api:
     image: ${E2E_API_IMAGE_TAG}
     pull_policy: missing
+  os:
+    image: ubuntu:17.04
