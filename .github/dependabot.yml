@@ -30,4 +30,7 @@ updates:
     directory: "/elasticsearch" # Location of package manifests
     schedule:
       interval: "weekly"
- 
+  - package-ecosystem: "docker-compose" # See documentation for possible values
+    directory: "/hexpm" # Location of package manifests
+    schedule:
+      interval: "weekly"
