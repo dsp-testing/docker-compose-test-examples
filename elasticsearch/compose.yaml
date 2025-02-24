@@ -1,0 +1,18 @@
+services:
+  elasticsearch:
+    image: "elastic/elasticsearch:8.16.4"
+    container_name: "elasticsearch"
+    volumes:
+      - "/.../data:/usr/share/elasticsearch/data"
+      - "/.../config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml"
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    network_mode: "bridge"
+    environment:
+      - "ES_JAVA_OPTS=-Xms4g -Xmx4g"
+    deploy:
+      resources:
+        limits:
+          memory: 4GB
+    restart: "always"
