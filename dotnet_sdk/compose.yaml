@@ -1,3 +1,5 @@
 services:
   serviceA:
     image: mcr.microsoft.com/dotnet/sdk:8.0.301-alpine3.18-amd64
+  serviceB:
+    image: owasp/modsecurity-crs:3.3-apache-202209221209
