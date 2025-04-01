@@ -33,3 +33,7 @@ updates:
     directory: "/hexpm" # Location of package manifests
     schedule:
       interval: "weekly"
+  - package-ecosystem: "docker-compose" # See documentation for possible values
+    directory: "/multipart-image" # Location of package manifests
+    schedule:
+      interval: "weekly"
