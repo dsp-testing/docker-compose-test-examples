@@ -3,4 +3,4 @@ services:
   os:
     image: ubuntu:17.04
   interpreter:
-    image: python:3.6.3
+    image: python:3.13.3
