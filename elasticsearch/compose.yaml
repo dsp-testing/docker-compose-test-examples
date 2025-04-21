@@ -1,6 +1,6 @@
 services:
   elasticsearch:
-    image: "elastic/elasticsearch:8.16.4"
+    image: "elastic/elasticsearch:9.0.0"
     container_name: "elasticsearch"
     volumes:
       - "/.../data:/usr/share/elasticsearch/data"
