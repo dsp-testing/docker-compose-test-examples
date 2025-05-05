@@ -1,5 +1,5 @@
 version: '2'
 services:
   hello_world:
-    image: postgres@sha256:a35ec42526e3c522eb13b4d82eddaee875d0ac6ca9eb5cc5607e412854478c71 # 16.7
+    image: postgres@sha256:304ab813518754228f9f792f79d6da36359b82d8ecf418096c636725f8c930ad # 16.7
     command: [/bin/echo, 'Hello world']
