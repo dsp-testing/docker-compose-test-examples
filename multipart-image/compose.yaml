@@ -1,5 +1,5 @@
 version: '2'
 services:
   owasp:
-    image: owasp/modsecurity-crs:3.3-nginx-alpine-202209221209
+    image: owasp/modsecurity-crs:4-nginx-alpine-202505050505
 
