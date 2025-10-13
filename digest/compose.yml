@@ -1,5 +1,5 @@
 version: '2'
 services:
   hello_world:
-    image: ubuntu@sha256:18305429afa14ea462f810146ba44d4363ae76e4c8dfc38288cf73aa07485005
+    image: ubuntu@sha256:66460d557b25769b102175144d538d88219c077c678a49af4afca6fbfc1b5252
     command: [/bin/echo, 'Hello world']
